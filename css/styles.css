@@ -1,11 +1,19 @@
 body {
-  background-color: #2c3a47;
-  /* font-family: "EB Garamond", serif; */
-  font-family: "Cormorant Garamond", serif;
+  background-image: linear-gradient(to top, #39072d, #2c3a47 100%);
+  font-family: "EB Garamond", serif;
+  /* font-family: "Cormorant Garamond", serif; */
   color: white;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+.arrow-top {
+  position: fixed;
+  top: 2rem;
+  right: 2.5rem;
+  width: 3rem;
+  z-index: 10;
 }
 
 .section-title {
@@ -32,10 +40,11 @@ body {
 
 .text-intro {
   margin: 2rem 6rem 2rem 3.5rem;
-  font-size: 3rem;
+  font-size: 3.4rem;
   opacity: 0.7;
   display: inline;
   color: #c16e50;
+  line-height: 4rem;
 }
 
 .text-nav {
@@ -52,7 +61,7 @@ body {
 .text-main {
   display: inline;
   font-size: 1.8rem;
-  opacity: 0.5;
+  opacity: 0.6;
   color: #c16e50;
 }
 
@@ -71,7 +80,7 @@ nav ul li {
 
 .section ul li {
   color: #58b19f;
-  margin: -4rem 5rem 5rem 19rem;
+  margin: -4rem 12rem 5rem 19rem;
 }
 
 .section ul li span {
@@ -81,6 +90,14 @@ nav ul li {
   font-size: 1.8rem;
   font-family: "Ultra", serif;
   margin: 0;
+}
+
+.section img {
+  opacity: 0.5;
+}
+
+footer .section img {
+  opacity: 0.7;
 }
 
 .main-a {
