@@ -41,7 +41,7 @@ body {
 .text-intro {
   margin: 2rem 6rem 2rem 3.5rem;
   font-size: 3.4rem;
-  opacity: 0.7;
+  opacity: 0.9;
   display: inline;
   color: #c16e50;
   line-height: 4rem;
@@ -60,9 +60,15 @@ body {
 
 .text-main {
   display: inline;
-  font-size: 1.8rem;
-  opacity: 0.6;
+  font-size: 1.4rem;
+  opacity: 0.9;
   color: #c16e50;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin-bottom: 9rem;
+  letter-spacing: 1px;
+  word-wrap: normal;
 }
 
 .text-nav:hover {
@@ -76,36 +82,48 @@ nav ul li {
 
 .section ul {
   list-style-type: none;
+  margin-top: -4rem;
 }
 
 .section ul li {
   color: #58b19f;
-  margin: -4rem 12rem 5rem 19rem;
+  margin: 0 12rem 2rem 19rem;
 }
 
 .section ul li span {
   /* color: black; */
   color: #495d71;
-  opacity: 0.7;
-  font-size: 1.8rem;
-  font-family: "Ultra", serif;
+  opacity: 0.6;
+  font-size: 2.2rem;
+  /* font-family: "Fredoka", sans-serif; */
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: italic;
   margin: 0;
+  /* letter-spacing: -1px; */
 }
 
 .section img {
-  opacity: 0.5;
-}
-
-footer .section img {
   opacity: 0.7;
 }
+/* 
+footer .section img {
+  opacity: 0.7;
+} */
 
 .main-a {
-  color: #c16e50;
+  color: #dc9075;
   text-decoration: none;
   opacity: 0.9;
   display: inline;
   font-size: 1.8rem;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  margin-left: 5px;
+  letter-spacing: 1px;
+  opacity: 0.4;
 }
 
 .main-a:hover {
