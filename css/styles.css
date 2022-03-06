@@ -112,18 +112,17 @@ footer .section img {
 } */
 
 .main-a {
-  color: #dc9075;
+  color: #c16e50;
   text-decoration: none;
-  opacity: 0.9;
+  opacity: 1;
   display: inline;
   font-size: 1.8rem;
   font-family: "Fredoka", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.4rem;
   text-decoration: underline;
   margin-left: 5px;
   letter-spacing: 1px;
-  opacity: 0.4;
 }
 
 .main-a:hover {
